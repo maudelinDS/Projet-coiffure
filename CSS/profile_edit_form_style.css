@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    
+    margin: 50px 50px 50px 50px;
+}
+body {
+	background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.)
+      ),  /*Applique un filtre noir sur l'image*/
+      url(/image/image_de_fond_7.jpg);
+}
+form {
+  display: grid;
+  justify-content: center;
+  background-color: #4ba7be;
+
+}
+h1 {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.ligne {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+input{
+    width: 450px;
+    height: 50;
+    margin: 50px 10px 10px 10px;
+}
+label .label1{
+display: flex;
+justify-content: left;
+font-size: 1.5em;
+
+
+}
+.label1{
+    font-size: 0.6em;
+    margin: 60px 10px 10px 10px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    display: flex;
+    font-size: 1.3em;
+    
+}
+input.saveButton{
+height: auto;
+}

@@ -1,0 +1,100 @@
+body {
+  background: #4ba7be;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ba68c8;
+}
+
+.profile-button {
+  background: #343f49;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.profile-button:hover {
+  background: #682773;
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 11px;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: rgb(29, 184, 150);
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.profileButtons {
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.editProfile{
+  display: flex;
+}
+
+.logoutButton {
+  margin-left: 50px;
+}
+
+.acceuilleButton {
+  margin-left: 50px;
+}
+
+.userListButton {
+  margin-left: 50px;
+}
+
+.updapteButton {
+  margin-left: 50px;
+}
+
+.backButton {
+  margin-left: 50px;
+}
+
+.row {
+  background-color: #2f7d91;
+}
+
+.labels {
+  border: 4px solid #2f7d91;
+  margin: 10px 10px 10px 0px;
+  font-size: 20px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}

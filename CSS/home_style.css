@@ -1,0 +1,41 @@
+body {
+  background-image: url(/image/image_de_fond_7.jpg);
+}
+h1.title{
+display: flex;
+justify-content: center;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background-color: rgb(175, 212, 212);
+}
+
+.media {
+  background-color: #96a9bd;
+}
+
+.content.ul{
+  display: grid;
+    background-image: url(/image/image_de_fond_10.jpg);
+
+      opacity: 0.5;
+}
+
+.card-content{
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+}

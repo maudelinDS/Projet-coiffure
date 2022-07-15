@@ -1,0 +1,68 @@
+$sql = "UPDATE users SET last_name= :last_name, first_name= :first_name, age= :age, email= :email, gender= :gender, phone_number= :phone_number, nom_utilisateur= :nom_utilisateur, mot_de_passe= mot_de_passe WHERE id=";
+
+$db-> execute (['first_name' => $_POST['first_name'],
+					 'last_name' => $_POST['last_name'],
+					 'email' => $_POST['email'],
+					 'age' => $_POST['age'],
+					 'gender' => $_POST['gender'],
+					 'phone_number' => $_POST['phone_number'],
+					 'nom_utilisateur' => $_POST['nom_utilisateur'],
+					 'mot_de_passe' => $_POST['mot_de_passe']]);
+
+					 $id_user = $pdo -> lastInsertId();
+
+
+
+					 $pdo = new PDO("mysql:host=localhost; dbname=Maudelin;charset=utf8mb4", 'root', 'root');
+<?php
+$d = $pdo->query($query);
+?>
+<tr class="table">
+
+    <th>first_name</th>
+    <th>last_name</th>
+    <th>age</th>
+    <th>phone_number</th>
+    <th>email</th>
+    <th>gender</th>
+    <th>nom_utilisateur</th>
+    <th>mot_de_passe</th>
+    <th>modifie</th>
+    <th>deleate</th>
+
+
+    </td>
+
+<tr class="class_table">
+
+
+<td><?php echo $data['id']?></td>
+<td><?php echo $data['first_name']?></td>
+<td><?php echo $data['last_name']?></td>
+<td><?php echo $data['gender']?></td>
+<td><?php echo $data['age']?></td>
+<td><?php echo $data['phone_number']?></td>
+<td><?php echo $data['nom_utilisateur']?></td>
+ <td><?php echo $data['mot_de_passe']?></td> 
+
+
+<th>last_name</th>
+    <th>age</th>
+    <th>phone_number</th>
+    <th>email</th>
+    <th>gender</th>
+    <th>nom_utilisateur</th>
+    <th>mot_de_passe</th>
+</tr>
+
+
+
+
+   
+
+
+
+
+</tr>
+
+<?php
